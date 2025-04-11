@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 
 namespace RentryGradientTool.Colors
 {
     public static class ColorPresets
     {
-        public static readonly Color[] Rainbow =
+        public static Color[] Rainbow { get; } =
         [
             Color.Red,
             Color.OrangeRed,
@@ -23,7 +18,7 @@ namespace RentryGradientTool.Colors
             Color.Magenta
         ];
 
-        public static readonly Color[] Grayscale =
+        public static Color[] Grayscale { get; } =
         [
             Color.Black,
             Color.DarkGray,
@@ -32,14 +27,14 @@ namespace RentryGradientTool.Colors
             Color.White
         ];
 
-        public static readonly Color[] Sunset =
+        public static Color[] Sunset { get; } =
         [
             Color.Magenta,
             Color.Yellow,
             Color.Cyan
         ];
 
-        public static readonly Color[] Unpleasantness =
+        public static Color[] Unpleasantness { get; }  =
         [
             Color.Lime,
             Color.HotPink,

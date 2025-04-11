@@ -1,5 +1,5 @@
-﻿using System.Text;
-using System.Drawing;
+﻿using System.Drawing;
+using System.Text;
 
 namespace RentryGradientTool.Colors;
 

@@ -1,5 +1,4 @@
 ﻿using RentryGradientTool.Colors;
-using System.Drawing;
 
 namespace RentryGradientTool;
 /*
