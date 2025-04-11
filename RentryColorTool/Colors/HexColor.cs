@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.Drawing;
+using System.Globalization;
 
 namespace RentryGradientTool.Colors
 {
@@ -39,6 +40,8 @@ namespace RentryGradientTool.Colors
             G = g;
             B = b;
         }
+
+        public HexColor(Color color) : this(color.R, color.G, color.B) { }
 
         public override string ToString()
         {

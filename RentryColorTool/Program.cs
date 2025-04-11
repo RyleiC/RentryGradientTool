@@ -1,4 +1,5 @@
 ﻿using RentryGradientTool.Colors;
+using System.Drawing;
 
 namespace RentryGradientTool;
 /*
@@ -11,19 +12,11 @@ public class Program
 {
     public static void Main()
     {
-        string[] colors =
-        [
-            "FF0000", //Red
-            "FF8800", //Orange
-            "FFFF00", //Yellow
-            "00FF00", //Green
-            "00FF88", //Teal
-            "00FFFF", //Cyan
-            "0000FF", //Blue
-            "8800FF", //Purple
-            "FF00FF" //Mangenta
-        ];
+        var text = "Rylei was here! This is a bunch of text so that you can admire this rainbow! You can use this tool to beautify your profile!";
 
-        Console.WriteLine(GradientMaker.ColorizeText("Rylei was here! This is a bunch of text so that you can admire this rainbow! You can use this tool to beautify your profile!", colors));
+        Console.WriteLine
+        (
+            value: GradientMaker.ColorizeText(text, ColorPresets.Rainbow)
+        );
     }
 }
