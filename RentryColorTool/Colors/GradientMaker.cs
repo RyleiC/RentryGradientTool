@@ -83,6 +83,7 @@ public static class GradientMaker
 
         return hexColors;
     }
+
     private static List<HexColor> GenerateGradient(HexColor colorLeft, HexColor colorRight, int amountOfSteps)
     {
         var colors = new List<HexColor>();
